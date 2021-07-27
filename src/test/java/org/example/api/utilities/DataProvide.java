@@ -18,7 +18,7 @@ public class DataProvide {
     public static String getDate(){
         /*String generatedString = RandomStringUtils.randomNumeric(2);
         return ("2021-07-"+generatedString);*/
-        return ("2021-07-25T15:56:34.551Z");
+        return ("2021-07-25");
     }
 
     public static String getScore(){

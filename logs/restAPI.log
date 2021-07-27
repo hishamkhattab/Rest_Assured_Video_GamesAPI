@@ -53,3 +53,716 @@
 2021-07-27 15:26:17 INFO  EmployeesRestAPI:82 - *************** Check Response Status Code ***********
 2021-07-27 15:26:17 INFO  EmployeesRestAPI:85 - Response Status Code==>200
 2021-07-27 15:26:17 INFO  EmployeesRestAPI:118 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 15:52:50 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:72 - *************** Check Response Body ******************
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:75 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:94 - *************** Check Content-Type Header ************
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:97 - Response Content-Type Header==>application/json
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:105 - *************** Check Content-Length Header **********
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:108 - Response Content-Type Length==>39
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:82 - *************** Check Response Status Code ***********
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:85 - Response Status Code==>200
+2021-07-27 15:52:53 INFO  EmployeesRestAPI:118 - **** Finish TC_003_DDT *******
+2021-07-27 15:55:47 INFO  EmployeesRestAPI:17 - ***************** Started TC_004_Delete_a_Video_Game *******************
+2021-07-27 15:55:52 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 15:55:52 INFO  EmployeesRestAPI:32 - Response Body==>{"status": "Record Deleted Successfully"}
+2021-07-27 15:55:52 INFO  EmployeesRestAPI:50 - *************** Check Content-Type Header ************
+2021-07-27 15:55:52 INFO  EmployeesRestAPI:53 - Response Content-Type Header==>application/xml
+2021-07-27 15:55:52 INFO  EmployeesRestAPI:61 - *************** Check Content-Length Header **********
+2021-07-27 15:55:52 INFO  EmployeesRestAPI:64 - Response Content-Type Length==>41
+2021-07-27 15:55:52 INFO  EmployeesRestAPI:40 - *************** Check Response Status Code ***********
+2021-07-27 15:55:52 INFO  EmployeesRestAPI:43 - Response Status Code==>200
+2021-07-27 15:55:52 INFO  EmployeesRestAPI:74 - **** Finish TC_004_Delete_a_Video_Game *******
+2021-07-27 15:57:41 INFO  EmployeesRestAPI:17 - ***************** Started TC_004_Delete_a_Video_Game *******************
+2021-07-27 15:57:47 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 15:57:47 INFO  EmployeesRestAPI:32 - Response Body==>{"status": "Record Deleted Successfully"}
+2021-07-27 15:57:47 INFO  EmployeesRestAPI:50 - *************** Check Content-Type Header ************
+2021-07-27 15:57:47 INFO  EmployeesRestAPI:53 - Response Content-Type Header==>application/json
+2021-07-27 15:57:47 INFO  EmployeesRestAPI:61 - *************** Check Content-Length Header **********
+2021-07-27 15:57:47 INFO  EmployeesRestAPI:64 - Response Content-Type Length==>41
+2021-07-27 15:57:47 INFO  EmployeesRestAPI:40 - *************** Check Response Status Code ***********
+2021-07-27 15:57:47 INFO  EmployeesRestAPI:43 - Response Status Code==>200
+2021-07-27 15:57:47 INFO  EmployeesRestAPI:74 - **** Finish TC_004_Delete_a_Video_Game *******
+2021-07-27 16:06:09 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 16:06:14 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 16:06:14 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json
+2021-07-27 16:06:14 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:06:14 INFO  EmployeesRestAPI:32 - Response Body==>{"id":11,"name":"fifa 21","releaseDate":"2021-07-26","reviewScore":5,"category":"Sport","rating":"universal"}
+2021-07-27 16:06:14 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 16:06:14 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>109
+2021-07-27 16:06:14 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 16:06:14 INFO  EmployeesRestAPI:41 - Response Status Code==>200
+2021-07-27 16:06:14 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 16:06:42 INFO  EmployeesRestAPI:17 - ***************** Started TC_004_Delete_a_Video_Game *******************
+2021-07-27 16:06:47 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:06:47 INFO  EmployeesRestAPI:32 - Response Body==>{"status": "Record Deleted Successfully"}
+2021-07-27 16:06:47 INFO  EmployeesRestAPI:50 - *************** Check Content-Type Header ************
+2021-07-27 16:06:47 INFO  EmployeesRestAPI:53 - Response Content-Type Header==>application/json
+2021-07-27 16:06:47 INFO  EmployeesRestAPI:61 - *************** Check Content-Length Header **********
+2021-07-27 16:06:47 INFO  EmployeesRestAPI:64 - Response Content-Type Length==>41
+2021-07-27 16:06:47 INFO  EmployeesRestAPI:40 - *************** Check Response Status Code ***********
+2021-07-27 16:06:47 INFO  EmployeesRestAPI:43 - Response Status Code==>200
+2021-07-27 16:06:47 INFO  EmployeesRestAPI:74 - **** Finish TC_004_Delete_a_Video_Game *******
+2021-07-27 16:06:59 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 16:07:04 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 16:07:04 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json;charset=UTF-8
+2021-07-27 16:07:04 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:07:04 INFO  EmployeesRestAPI:32 - Response Body==>{"timestamp":1627394824205,"status":500,"error":"Internal Server Error","message":"Index 0 out of bounds for length 0","trace":"java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0\r\n\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)\r\n\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)\r\n\tat java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)\r\n\tat java.base/java.util.Objects.checkIndex(Objects.java:359)\r\n\tat java.base/java.util.ArrayList.get(ArrayList.java:427)\r\n\tat com.techietester.resource.VideoGameResource.getVideoGame(VideoGameResource.java:52)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)\r\n\tat org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)\r\n\tat org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)\r\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)\r\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:316)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:298)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:268)\r\n\tat org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)\r\n\tat org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)\r\n\tat org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)\r\n\tat org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.serviceImpl(ServletContainer.java:409)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:584)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:525)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:462)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:832)\r\n","path":"/app/videogames/11"}
+2021-07-27 16:07:04 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 16:07:04 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>null
+2021-07-27 16:07:04 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 16:07:04 INFO  EmployeesRestAPI:41 - Response Status Code==>500
+2021-07-27 16:07:04 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 16:21:21 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 16:21:27 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 16:21:27 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json;charset=UTF-8
+2021-07-27 16:21:27 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:21:27 INFO  EmployeesRestAPI:32 - Response Body==>{"timestamp":1627395687521,"status":500,"error":"Internal Server Error","message":"Index 0 out of bounds for length 0","trace":"java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0\r\n\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)\r\n\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)\r\n\tat java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)\r\n\tat java.base/java.util.Objects.checkIndex(Objects.java:359)\r\n\tat java.base/java.util.ArrayList.get(ArrayList.java:427)\r\n\tat com.techietester.resource.VideoGameResource.getVideoGame(VideoGameResource.java:52)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)\r\n\tat org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)\r\n\tat org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)\r\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)\r\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:316)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:298)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:268)\r\n\tat org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)\r\n\tat org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)\r\n\tat org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)\r\n\tat org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.serviceImpl(ServletContainer.java:409)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:584)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:525)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:462)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:832)\r\n","path":"/app/videogames/11"}
+2021-07-27 16:21:27 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 16:21:27 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>null
+2021-07-27 16:21:27 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 16:21:27 INFO  EmployeesRestAPI:41 - Response Status Code==>500
+2021-07-27 16:21:27 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 16:22:25 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 16:22:30 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 16:22:30 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json;charset=UTF-8
+2021-07-27 16:22:30 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:22:30 INFO  EmployeesRestAPI:32 - Response Body==>{"timestamp":1627395750305,"status":500,"error":"Internal Server Error","message":"Index 0 out of bounds for length 0","trace":"java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0\r\n\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)\r\n\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)\r\n\tat java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)\r\n\tat java.base/java.util.Objects.checkIndex(Objects.java:359)\r\n\tat java.base/java.util.ArrayList.get(ArrayList.java:427)\r\n\tat com.techietester.resource.VideoGameResource.getVideoGame(VideoGameResource.java:52)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)\r\n\tat org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)\r\n\tat org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)\r\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)\r\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:316)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:298)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:268)\r\n\tat org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)\r\n\tat org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)\r\n\tat org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)\r\n\tat org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.serviceImpl(ServletContainer.java:409)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:584)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:525)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:462)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:832)\r\n","path":"/app/videogames/11"}
+2021-07-27 16:22:30 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 16:22:30 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>null
+2021-07-27 16:22:30 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 16:22:30 INFO  EmployeesRestAPI:41 - Response Status Code==>500
+2021-07-27 16:22:30 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 16:22:54 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 16:23:00 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 16:23:00 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json
+2021-07-27 16:23:00 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:23:00 INFO  EmployeesRestAPI:32 - Response Body==>{"id":15,"name":"PES","releaseDate":"2020-09-26","reviewScore":10,"category":"Sport","rating":"universal"}
+2021-07-27 16:23:00 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 16:23:00 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>106
+2021-07-27 16:23:00 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 16:23:00 INFO  EmployeesRestAPI:41 - Response Status Code==>200
+2021-07-27 16:23:00 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 16:27:40 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 16:30:03 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 16:30:48 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 16:30:54 INFO  EmployeesRestAPI:81 - *************** Check Content-Type Header ************
+2021-07-27 16:30:54 INFO  EmployeesRestAPI:84 - Response Content-Type Header==>application/json
+2021-07-27 16:30:54 INFO  EmployeesRestAPI:57 - *************** Check Response Body ******************
+2021-07-27 16:30:54 INFO  EmployeesRestAPI:60 - Response Body==>{"id":15,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"}
+2021-07-27 16:30:54 INFO  EmployeesRestAPI:91 - *************** Check Content-Length Header **********
+2021-07-27 16:30:54 INFO  EmployeesRestAPI:94 - Response Content-Type Length==>105
+2021-07-27 16:30:54 INFO  EmployeesRestAPI:71 - *************** Check Response Status Code ***********
+2021-07-27 16:30:54 INFO  EmployeesRestAPI:74 - Response Status Code==>200
+2021-07-27 16:30:54 INFO  EmployeesRestAPI:103 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 16:33:42 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 16:33:48 INFO  EmployeesRestAPI:81 - *************** Check Content-Type Header ************
+2021-07-27 16:33:48 INFO  EmployeesRestAPI:84 - Response Content-Type Header==>application/json
+2021-07-27 16:33:48 INFO  EmployeesRestAPI:57 - *************** Check Response Body ******************
+2021-07-27 16:33:48 INFO  EmployeesRestAPI:60 - Response Body==>{"id":15,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"}
+2021-07-27 16:33:48 INFO  EmployeesRestAPI:91 - *************** Check Content-Length Header **********
+2021-07-27 16:33:48 INFO  EmployeesRestAPI:94 - Response Content-Type Length==>105
+2021-07-27 16:33:48 INFO  EmployeesRestAPI:71 - *************** Check Response Status Code ***********
+2021-07-27 16:33:48 INFO  EmployeesRestAPI:74 - Response Status Code==>200
+2021-07-27 16:33:48 INFO  EmployeesRestAPI:103 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 16:35:10 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 16:35:18 INFO  EmployeesRestAPI:81 - *************** Check Content-Type Header ************
+2021-07-27 16:35:18 INFO  EmployeesRestAPI:84 - Response Content-Type Header==>application/json
+2021-07-27 16:35:18 INFO  EmployeesRestAPI:57 - *************** Check Response Body ******************
+2021-07-27 16:35:18 INFO  EmployeesRestAPI:60 - Response Body==>{"id":15,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"}
+2021-07-27 16:35:18 INFO  EmployeesRestAPI:61 - release date ----->2021-07-25T15:56:34.551Z
+2021-07-27 16:35:18 INFO  EmployeesRestAPI:91 - *************** Check Content-Length Header **********
+2021-07-27 16:35:18 INFO  EmployeesRestAPI:94 - Response Content-Type Length==>105
+2021-07-27 16:35:18 INFO  EmployeesRestAPI:71 - *************** Check Response Status Code ***********
+2021-07-27 16:35:18 INFO  EmployeesRestAPI:74 - Response Status Code==>200
+2021-07-27 16:35:18 INFO  EmployeesRestAPI:103 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 16:36:43 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 16:36:52 INFO  EmployeesRestAPI:80 - *************** Check Content-Type Header ************
+2021-07-27 16:36:52 INFO  EmployeesRestAPI:83 - Response Content-Type Header==>application/json
+2021-07-27 16:36:52 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 16:36:52 INFO  EmployeesRestAPI:59 - Response Body==>{"id":15,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"}
+2021-07-27 16:36:52 INFO  EmployeesRestAPI:90 - *************** Check Content-Length Header **********
+2021-07-27 16:36:52 INFO  EmployeesRestAPI:93 - Response Content-Type Length==>105
+2021-07-27 16:36:52 INFO  EmployeesRestAPI:70 - *************** Check Response Status Code ***********
+2021-07-27 16:36:52 INFO  EmployeesRestAPI:73 - Response Status Code==>200
+2021-07-27 16:36:52 INFO  EmployeesRestAPI:102 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 16:41:36 INFO  EmployeesRestAPI:18 - **** Started TC_001_GET_List_Of_All_Video_Games ******
+2021-07-27 16:41:42 INFO  EmployeesRestAPI:49 - *************** Check Content-Type Header ************
+2021-07-27 16:41:42 INFO  EmployeesRestAPI:52 - Response Content-Type Header==>application/json
+2021-07-27 16:41:42 INFO  EmployeesRestAPI:30 - *************** Check Response Body ******************
+2021-07-27 16:41:42 INFO  EmployeesRestAPI:33 - Response Body==>[{"id":0,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"},{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23","reviewScore":90,"category":"Driving","rating":"Mature"},{"id":15,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"}]
+2021-07-27 16:41:42 INFO  EmployeesRestAPI:59 - *************** Check Content-Length Header **********
+2021-07-27 16:41:42 INFO  EmployeesRestAPI:62 - Response Content-Type Length==>1394
+2021-07-27 16:41:42 INFO  EmployeesRestAPI:39 - *************** Check Response Status Code ***********
+2021-07-27 16:41:42 INFO  EmployeesRestAPI:42 - Response Status Code==>200
+2021-07-27 16:41:42 INFO  EmployeesRestAPI:71 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 16:41:42 INFO  EmployeesRestAPI:29 - **** Started TC_002_Add_a_New_Video_Game ******
+2021-07-27 16:41:43 INFO  EmployeesRestAPI:78 - *************** Check Content-Type Header ************
+2021-07-27 16:41:43 INFO  EmployeesRestAPI:81 - Response Content-Type Header==>application/json
+2021-07-27 16:41:43 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 16:41:43 INFO  EmployeesRestAPI:59 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 16:41:43 INFO  EmployeesRestAPI:89 - *************** Check Content-Length Header **********
+2021-07-27 16:41:43 INFO  EmployeesRestAPI:92 - Response Content-Type Length==>39
+2021-07-27 16:41:43 INFO  EmployeesRestAPI:67 - *************** Check Response Status Code ***********
+2021-07-27 16:41:43 INFO  EmployeesRestAPI:70 - Response Status Code==>200
+2021-07-27 16:41:43 INFO  EmployeesRestAPI:103 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 16:41:46 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:41:46 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:72 - *************** Check Response Body ******************
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:75 - Response Body==>{"timestamp":1627396907181,"status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [insert into VIDEOGAME values(?, ?, ?, ?, ?, ?)]; Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [15, 'Sonic', TIMESTAMP '2021-07-25 17:56:34.551', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [15, 'Sonic', TIMESTAMP '2021-07-25 17:56:34.551', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]","trace":"org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [insert into VIDEOGAME values(?, ?, ?, ?, ?, ?)]; Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [15, 'Sonic', TIMESTAMP '2021-07-25 17:56:34.551', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [15, 'Sonic', TIMESTAMP '2021-07-25 17:56:34.551', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]\r\n\tat org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)\r\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:883)\r\n\tat org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:321)\r\n\tat com.techietester.resource.VideoGameResource.createVideoGame(VideoGameResource.java:60)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)\r\n\tat org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)\r\n\tat org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)\r\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)\r\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:316)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:298)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:268)\r\n\tat org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)\r\n\tat org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)\r\n\tat org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)\r\n\tat org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.serviceImpl(ServletContainer.java:409)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:584)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:525)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:462)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:832)\r\nCaused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [15, 'Sonic', TIMESTAMP '2021-07-25 17:56:34.551', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]\r\n\tat org.h2.message.DbException.getJdbcSQLException(DbException.java:457)\r\n\tat org.h2.message.DbException.getJdbcSQLException(DbException.java:427)\r\n\tat org.h2.message.DbException.get(DbException.java:205)\r\n\tat org.h2.message.DbException.get(DbException.java:181)\r\n\tat org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:131)\r\n\tat org.h2.mvstore.db.MVTable.addRow(MVTable.java:546)\r\n\tat org.h2.command.dml.Insert.insertRows(Insert.java:180)\r\n\tat org.h2.command.dml.Insert.update(Insert.java:132)\r\n\tat org.h2.command.CommandContainer.update(CommandContainer.java:133)\r\n\tat org.h2.command.Command.executeUpdate(Command.java:267)\r\n\tat org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:200)\r\n\tat org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:154)\r\n\tat com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)\r\n\tat com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:867)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)\r\n\t... 56 more\r\n","path":"/app/videogames"}
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:94 - *************** Check Content-Type Header ************
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:97 - Response Content-Type Header==>application/json;charset=UTF-8
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:105 - *************** Check Content-Length Header **********
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:108 - Response Content-Type Length==>null
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:82 - *************** Check Response Status Code ***********
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:85 - Response Status Code==>500
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:118 - **** Finish TC_003_DDT *******
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:32 - Response Body==>{"id":15,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"}
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>105
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:41 - Response Status Code==>200
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:17 - ***************** Started TC_004_Delete_a_Video_Game *******************
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:32 - Response Body==>{"status": "Record Deleted Successfully"}
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:50 - *************** Check Content-Type Header ************
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:53 - Response Content-Type Header==>application/json
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:61 - *************** Check Content-Length Header **********
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:64 - Response Content-Type Length==>41
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:40 - *************** Check Response Status Code ***********
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:43 - Response Status Code==>200
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:74 - **** Finish TC_004_Delete_a_Video_Game *******
+2021-07-27 16:41:47 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 16:41:48 INFO  EmployeesRestAPI:80 - *************** Check Content-Type Header ************
+2021-07-27 16:41:48 INFO  EmployeesRestAPI:83 - Response Content-Type Header==>application/json;charset=UTF-8
+2021-07-27 16:41:48 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 16:41:48 INFO  EmployeesRestAPI:59 - Response Body==>{"timestamp":1627396908196,"status":404,"error":"Not Found","message":"Not Found","path":"/app/videogames/null"}
+2021-07-27 16:41:48 INFO  EmployeesRestAPI:90 - *************** Check Content-Length Header **********
+2021-07-27 16:41:48 INFO  EmployeesRestAPI:93 - Response Content-Type Length==>null
+2021-07-27 16:41:48 INFO  EmployeesRestAPI:70 - *************** Check Response Status Code ***********
+2021-07-27 16:41:48 INFO  EmployeesRestAPI:73 - Response Status Code==>404
+2021-07-27 16:41:48 INFO  EmployeesRestAPI:102 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 16:45:15 INFO  EmployeesRestAPI:18 - **** Started TC_001_GET_List_Of_All_Video_Games ******
+2021-07-27 16:45:21 INFO  EmployeesRestAPI:49 - *************** Check Content-Type Header ************
+2021-07-27 16:45:21 INFO  EmployeesRestAPI:52 - Response Content-Type Header==>application/json
+2021-07-27 16:45:21 INFO  EmployeesRestAPI:30 - *************** Check Response Body ******************
+2021-07-27 16:45:21 INFO  EmployeesRestAPI:33 - Response Body==>[{"id":0,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"},{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23","reviewScore":90,"category":"Driving","rating":"Mature"}]
+2021-07-27 16:45:21 INFO  EmployeesRestAPI:59 - *************** Check Content-Length Header **********
+2021-07-27 16:45:21 INFO  EmployeesRestAPI:62 - Response Content-Type Length==>1288
+2021-07-27 16:45:21 INFO  EmployeesRestAPI:39 - *************** Check Response Status Code ***********
+2021-07-27 16:45:21 INFO  EmployeesRestAPI:42 - Response Status Code==>200
+2021-07-27 16:45:21 INFO  EmployeesRestAPI:71 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 16:45:21 INFO  EmployeesRestAPI:29 - **** Started TC_002_Add_a_New_Video_Game ******
+2021-07-27 16:45:22 INFO  EmployeesRestAPI:78 - *************** Check Content-Type Header ************
+2021-07-27 16:45:22 INFO  EmployeesRestAPI:81 - Response Content-Type Header==>application/json
+2021-07-27 16:45:22 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 16:45:22 INFO  EmployeesRestAPI:59 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 16:45:22 INFO  EmployeesRestAPI:89 - *************** Check Content-Length Header **********
+2021-07-27 16:45:22 INFO  EmployeesRestAPI:92 - Response Content-Type Length==>39
+2021-07-27 16:45:22 INFO  EmployeesRestAPI:67 - *************** Check Response Status Code ***********
+2021-07-27 16:45:22 INFO  EmployeesRestAPI:70 - Response Status Code==>200
+2021-07-27 16:45:22 INFO  EmployeesRestAPI:103 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:72 - *************** Check Response Body ******************
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:75 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:94 - *************** Check Content-Type Header ************
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:97 - Response Content-Type Header==>application/json
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:105 - *************** Check Content-Length Header **********
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:108 - Response Content-Type Length==>39
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:82 - *************** Check Response Status Code ***********
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:85 - Response Status Code==>200
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:118 - **** Finish TC_003_DDT *******
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:32 - Response Body==>{"id":15,"name":"pes","releaseDate":"2021-07-26","reviewScore":8,"category":"Sport","rating":"universal"}
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>105
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:41 - Response Status Code==>200
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 16:45:28 INFO  EmployeesRestAPI:17 - ***************** Started TC_004_Delete_a_Video_Game *******************
+2021-07-27 16:45:29 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:45:29 INFO  EmployeesRestAPI:32 - Response Body==>{"status": "Record Deleted Successfully"}
+2021-07-27 16:45:29 INFO  EmployeesRestAPI:50 - *************** Check Content-Type Header ************
+2021-07-27 16:45:29 INFO  EmployeesRestAPI:53 - Response Content-Type Header==>application/json
+2021-07-27 16:45:29 INFO  EmployeesRestAPI:61 - *************** Check Content-Length Header **********
+2021-07-27 16:45:29 INFO  EmployeesRestAPI:64 - Response Content-Type Length==>41
+2021-07-27 16:45:29 INFO  EmployeesRestAPI:40 - *************** Check Response Status Code ***********
+2021-07-27 16:45:29 INFO  EmployeesRestAPI:43 - Response Status Code==>200
+2021-07-27 16:45:29 INFO  EmployeesRestAPI:74 - **** Finish TC_004_Delete_a_Video_Game *******
+2021-07-27 16:45:29 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 16:45:30 INFO  EmployeesRestAPI:80 - *************** Check Content-Type Header ************
+2021-07-27 16:45:30 INFO  EmployeesRestAPI:83 - Response Content-Type Header==>application/json;charset=UTF-8
+2021-07-27 16:45:30 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 16:45:30 INFO  EmployeesRestAPI:59 - Response Body==>{"timestamp":1627397130390,"status":404,"error":"Not Found","message":"Not Found","path":"/app/videogames/null"}
+2021-07-27 16:45:30 INFO  EmployeesRestAPI:90 - *************** Check Content-Length Header **********
+2021-07-27 16:45:30 INFO  EmployeesRestAPI:93 - Response Content-Type Length==>null
+2021-07-27 16:45:30 INFO  EmployeesRestAPI:70 - *************** Check Response Status Code ***********
+2021-07-27 16:45:30 INFO  EmployeesRestAPI:73 - Response Status Code==>404
+2021-07-27 16:45:30 INFO  EmployeesRestAPI:102 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 16:47:29 INFO  EmployeesRestAPI:18 - **** Started TC_001_GET_List_Of_All_Video_Games ******
+2021-07-27 16:47:37 INFO  EmployeesRestAPI:49 - *************** Check Content-Type Header ************
+2021-07-27 16:47:37 INFO  EmployeesRestAPI:52 - Response Content-Type Header==>application/json
+2021-07-27 16:47:37 INFO  EmployeesRestAPI:30 - *************** Check Response Body ******************
+2021-07-27 16:47:37 INFO  EmployeesRestAPI:33 - Response Body==>[{"id":0,"name":"string","releaseDate":"2021-07-27","reviewScore":0,"category":"string","rating":"string"},{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23","reviewScore":90,"category":"Driving","rating":"Mature"},{"id":11,"name":"fifa 21","releaseDate":"2021-07-26","reviewScore":5,"category":"Sport","rating":"universal"},{"id":14,"name":"cod","releaseDate":"2021-07-26","reviewScore":9,"category":"shooter","rating":"mature"},{"id":20,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"}]
+2021-07-27 16:47:37 INFO  EmployeesRestAPI:59 - *************** Check Content-Length Header **********
+2021-07-27 16:47:37 INFO  EmployeesRestAPI:62 - Response Content-Type Length==>1610
+2021-07-27 16:47:37 INFO  EmployeesRestAPI:39 - *************** Check Response Status Code ***********
+2021-07-27 16:47:37 INFO  EmployeesRestAPI:42 - Response Status Code==>200
+2021-07-27 16:47:37 INFO  EmployeesRestAPI:71 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 16:47:37 INFO  EmployeesRestAPI:29 - **** Started TC_002_Add_a_New_Video_Game ******
+2021-07-27 16:47:38 INFO  EmployeesRestAPI:78 - *************** Check Content-Type Header ************
+2021-07-27 16:47:38 INFO  EmployeesRestAPI:81 - Response Content-Type Header==>application/json;charset=UTF-8
+2021-07-27 16:47:38 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 16:47:38 INFO  EmployeesRestAPI:59 - Response Body==>{"timestamp":1627397258429,"status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [insert into VIDEOGAME values(?, ?, ?, ?, ?, ?)]; Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [20, 'Sonic', TIMESTAMP '2021-07-25 02:00:00', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [20, 'Sonic', TIMESTAMP '2021-07-25 02:00:00', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]","trace":"org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [insert into VIDEOGAME values(?, ?, ?, ?, ?, ?)]; Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [20, 'Sonic', TIMESTAMP '2021-07-25 02:00:00', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [20, 'Sonic', TIMESTAMP '2021-07-25 02:00:00', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]\r\n\tat org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)\r\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:883)\r\n\tat org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:321)\r\n\tat com.techietester.resource.VideoGameResource.createVideoGame(VideoGameResource.java:60)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)\r\n\tat org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)\r\n\tat org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)\r\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)\r\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:316)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:298)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:268)\r\n\tat org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)\r\n\tat org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)\r\n\tat org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)\r\n\tat org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.serviceImpl(ServletContainer.java:409)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:584)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:525)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:462)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:832)\r\nCaused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [20, 'Sonic', TIMESTAMP '2021-07-25 02:00:00', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]\r\n\tat org.h2.message.DbException.getJdbcSQLException(DbException.java:457)\r\n\tat org.h2.message.DbException.getJdbcSQLException(DbException.java:427)\r\n\tat org.h2.message.DbException.get(DbException.java:205)\r\n\tat org.h2.message.DbException.get(DbException.java:181)\r\n\tat org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:131)\r\n\tat org.h2.mvstore.db.MVTable.addRow(MVTable.java:546)\r\n\tat org.h2.command.dml.Insert.insertRows(Insert.java:180)\r\n\tat org.h2.command.dml.Insert.update(Insert.java:132)\r\n\tat org.h2.command.CommandContainer.update(CommandContainer.java:133)\r\n\tat org.h2.command.Command.executeUpdate(Command.java:267)\r\n\tat org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:200)\r\n\tat org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:154)\r\n\tat com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)\r\n\tat com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:867)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)\r\n\t... 55 more\r\n","path":"/app/videogames"}
+2021-07-27 16:47:38 INFO  EmployeesRestAPI:89 - *************** Check Content-Length Header **********
+2021-07-27 16:47:38 INFO  EmployeesRestAPI:92 - Response Content-Type Length==>null
+2021-07-27 16:47:38 INFO  EmployeesRestAPI:67 - *************** Check Response Status Code ***********
+2021-07-27 16:47:38 INFO  EmployeesRestAPI:70 - Response Status Code==>500
+2021-07-27 16:47:38 INFO  EmployeesRestAPI:103 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 16:47:45 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:47:45 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:47:45 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:72 - *************** Check Response Body ******************
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:75 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:94 - *************** Check Content-Type Header ************
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:97 - Response Content-Type Header==>application/json
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:105 - *************** Check Content-Length Header **********
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:108 - Response Content-Type Length==>39
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:82 - *************** Check Response Status Code ***********
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:85 - Response Status Code==>200
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:118 - **** Finish TC_003_DDT *******
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:32 - Response Body==>{"id":15,"name":"pes","releaseDate":"2021-07-26","reviewScore":8,"category":"Sport","rating":"universal"}
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>105
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:41 - Response Status Code==>200
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 16:47:46 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 16:47:47 INFO  EmployeesRestAPI:80 - *************** Check Content-Type Header ************
+2021-07-27 16:47:47 INFO  EmployeesRestAPI:83 - Response Content-Type Header==>application/json;charset=UTF-8
+2021-07-27 16:47:47 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 16:47:47 INFO  EmployeesRestAPI:59 - Response Body==>{"timestamp":1627397267832,"status":404,"error":"Not Found","message":"Not Found","path":"/app/videogames/null"}
+2021-07-27 16:47:47 INFO  EmployeesRestAPI:90 - *************** Check Content-Length Header **********
+2021-07-27 16:47:47 INFO  EmployeesRestAPI:93 - Response Content-Type Length==>null
+2021-07-27 16:47:47 INFO  EmployeesRestAPI:70 - *************** Check Response Status Code ***********
+2021-07-27 16:47:47 INFO  EmployeesRestAPI:73 - Response Status Code==>404
+2021-07-27 16:47:47 INFO  EmployeesRestAPI:102 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 16:47:47 INFO  EmployeesRestAPI:17 - ***************** Started TC_004_Delete_a_Video_Game *******************
+2021-07-27 16:47:48 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:47:48 INFO  EmployeesRestAPI:32 - Response Body==>{"status": "Record Deleted Successfully"}
+2021-07-27 16:47:48 INFO  EmployeesRestAPI:50 - *************** Check Content-Type Header ************
+2021-07-27 16:47:48 INFO  EmployeesRestAPI:53 - Response Content-Type Header==>application/json
+2021-07-27 16:47:48 INFO  EmployeesRestAPI:61 - *************** Check Content-Length Header **********
+2021-07-27 16:47:48 INFO  EmployeesRestAPI:64 - Response Content-Type Length==>41
+2021-07-27 16:47:48 INFO  EmployeesRestAPI:40 - *************** Check Response Status Code ***********
+2021-07-27 16:47:48 INFO  EmployeesRestAPI:43 - Response Status Code==>200
+2021-07-27 16:47:48 INFO  EmployeesRestAPI:74 - **** Finish TC_004_Delete_a_Video_Game *******
+2021-07-27 16:52:07 INFO  EmployeesRestAPI:18 - **** Started TC_001_GET_List_Of_All_Video_Games ******
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:49 - *************** Check Content-Type Header ************
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:52 - Response Content-Type Header==>application/json
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:30 - *************** Check Response Body ******************
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:33 - Response Body==>[{"id":0,"name":"string","releaseDate":"2021-07-27","reviewScore":0,"category":"string","rating":"string"},{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23","reviewScore":90,"category":"Driving","rating":"Mature"}]
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:59 - *************** Check Content-Length Header **********
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:62 - Response Content-Type Length==>1289
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:39 - *************** Check Response Status Code ***********
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:42 - Response Status Code==>200
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:71 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:29 - **** Started TC_002_Add_a_New_Video_Game ******
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:78 - *************** Check Content-Type Header ************
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:81 - Response Content-Type Header==>application/json
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:59 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:89 - *************** Check Content-Length Header **********
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:92 - Response Content-Type Length==>39
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:67 - *************** Check Response Status Code ***********
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:70 - Response Status Code==>200
+2021-07-27 16:52:13 INFO  EmployeesRestAPI:103 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 16:52:19 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:52:19 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:52:19 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:52:19 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:52:19 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:72 - *************** Check Response Body ******************
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:75 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:94 - *************** Check Content-Type Header ************
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:97 - Response Content-Type Header==>application/json
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:105 - *************** Check Content-Length Header **********
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:108 - Response Content-Type Length==>39
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:82 - *************** Check Response Status Code ***********
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:85 - Response Status Code==>200
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:118 - **** Finish TC_003_DDT *******
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:32 - Response Body==>{"id":15,"name":"pes","releaseDate":"2021-07-26","reviewScore":8,"category":"Sport","rating":"universal"}
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>105
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:41 - Response Status Code==>200
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 16:52:20 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:80 - *************** Check Content-Type Header ************
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:83 - Response Content-Type Header==>application/json;charset=UTF-8
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:59 - Response Body==>{"timestamp":1627397541647,"status":404,"error":"Not Found","message":"Not Found","path":"/app/videogames/null"}
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:90 - *************** Check Content-Length Header **********
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:93 - Response Content-Type Length==>null
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:70 - *************** Check Response Status Code ***********
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:73 - Response Status Code==>404
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:102 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:17 - ***************** Started TC_004_Delete_a_Video_Game *******************
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:32 - Response Body==>{"status": "Record Deleted Successfully"}
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:50 - *************** Check Content-Type Header ************
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:53 - Response Content-Type Header==>application/json
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:61 - *************** Check Content-Length Header **********
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:64 - Response Content-Type Length==>41
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:40 - *************** Check Response Status Code ***********
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:43 - Response Status Code==>200
+2021-07-27 16:52:21 INFO  EmployeesRestAPI:74 - **** Finish TC_004_Delete_a_Video_Game *******
+2021-07-27 16:54:26 INFO  EmployeesRestAPI:18 - **** Started TC_001_GET_List_Of_All_Video_Games ******
+2021-07-27 16:54:33 INFO  EmployeesRestAPI:49 - *************** Check Content-Type Header ************
+2021-07-27 16:54:33 INFO  EmployeesRestAPI:52 - Response Content-Type Header==>application/json
+2021-07-27 16:54:33 INFO  EmployeesRestAPI:30 - *************** Check Response Body ******************
+2021-07-27 16:54:33 INFO  EmployeesRestAPI:33 - Response Body==>[{"id":0,"name":"string","releaseDate":"2021-07-27","reviewScore":0,"category":"string","rating":"string"},{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23","reviewScore":90,"category":"Driving","rating":"Mature"}]
+2021-07-27 16:54:33 INFO  EmployeesRestAPI:59 - *************** Check Content-Length Header **********
+2021-07-27 16:54:33 INFO  EmployeesRestAPI:62 - Response Content-Type Length==>1289
+2021-07-27 16:54:33 INFO  EmployeesRestAPI:39 - *************** Check Response Status Code ***********
+2021-07-27 16:54:33 INFO  EmployeesRestAPI:42 - Response Status Code==>200
+2021-07-27 16:54:33 INFO  EmployeesRestAPI:71 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 16:54:33 INFO  EmployeesRestAPI:29 - **** Started TC_002_Add_a_New_Video_Game ******
+2021-07-27 16:54:34 INFO  EmployeesRestAPI:78 - *************** Check Content-Type Header ************
+2021-07-27 16:54:34 INFO  EmployeesRestAPI:81 - Response Content-Type Header==>application/json
+2021-07-27 16:54:34 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 16:54:34 INFO  EmployeesRestAPI:59 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 16:54:34 INFO  EmployeesRestAPI:89 - *************** Check Content-Length Header **********
+2021-07-27 16:54:34 INFO  EmployeesRestAPI:92 - Response Content-Type Length==>39
+2021-07-27 16:54:34 INFO  EmployeesRestAPI:67 - *************** Check Response Status Code ***********
+2021-07-27 16:54:34 INFO  EmployeesRestAPI:70 - Response Status Code==>200
+2021-07-27 16:54:34 INFO  EmployeesRestAPI:103 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:72 - *************** Check Response Body ******************
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:75 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:94 - *************** Check Content-Type Header ************
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:97 - Response Content-Type Header==>application/json
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:105 - *************** Check Content-Length Header **********
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:108 - Response Content-Type Length==>39
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:82 - *************** Check Response Status Code ***********
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:85 - Response Status Code==>200
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:118 - **** Finish TC_003_DDT *******
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:32 - Response Body==>{"id":15,"name":"pes","releaseDate":"2021-07-26","reviewScore":8,"category":"Sport","rating":"universal"}
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>105
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:41 - Response Status Code==>200
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 16:54:38 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:74 - *************** Check Content-Type Header ************
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:77 - Response Content-Type Header==>application/json
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:50 - *************** Check Response Body ******************
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:53 - Response Body==>{"id":15,"name":"pes","releaseDate":"2021-07-26","reviewScore":8,"category":"Sport","rating":"universal"}
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:84 - *************** Check Content-Length Header **********
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:87 - Response Content-Type Length==>105
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:64 - *************** Check Response Status Code ***********
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:67 - Response Status Code==>200
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:96 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:17 - ***************** Started TC_004_Delete_a_Video_Game *******************
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:32 - Response Body==>{"status": "Record Deleted Successfully"}
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:50 - *************** Check Content-Type Header ************
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:53 - Response Content-Type Header==>application/json
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:61 - *************** Check Content-Length Header **********
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:64 - Response Content-Type Length==>41
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:40 - *************** Check Response Status Code ***********
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:43 - Response Status Code==>200
+2021-07-27 16:54:39 INFO  EmployeesRestAPI:74 - **** Finish TC_004_Delete_a_Video_Game *******
+2021-07-27 16:56:13 INFO  EmployeesRestAPI:18 - **** Started TC_001_GET_List_Of_All_Video_Games ******
+2021-07-27 16:56:19 INFO  EmployeesRestAPI:49 - *************** Check Content-Type Header ************
+2021-07-27 16:56:19 INFO  EmployeesRestAPI:52 - Response Content-Type Header==>application/json
+2021-07-27 16:56:19 INFO  EmployeesRestAPI:30 - *************** Check Response Body ******************
+2021-07-27 16:56:19 INFO  EmployeesRestAPI:33 - Response Body==>[{"id":0,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"},{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23","reviewScore":90,"category":"Driving","rating":"Mature"}]
+2021-07-27 16:56:19 INFO  EmployeesRestAPI:59 - *************** Check Content-Length Header **********
+2021-07-27 16:56:19 INFO  EmployeesRestAPI:62 - Response Content-Type Length==>1288
+2021-07-27 16:56:19 INFO  EmployeesRestAPI:39 - *************** Check Response Status Code ***********
+2021-07-27 16:56:19 INFO  EmployeesRestAPI:42 - Response Status Code==>200
+2021-07-27 16:56:19 INFO  EmployeesRestAPI:71 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 16:56:19 INFO  EmployeesRestAPI:29 - **** Started TC_002_Add_a_New_Video_Game ******
+2021-07-27 16:56:20 INFO  EmployeesRestAPI:78 - *************** Check Content-Type Header ************
+2021-07-27 16:56:20 INFO  EmployeesRestAPI:81 - Response Content-Type Header==>application/json
+2021-07-27 16:56:20 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 16:56:20 INFO  EmployeesRestAPI:59 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 16:56:20 INFO  EmployeesRestAPI:89 - *************** Check Content-Length Header **********
+2021-07-27 16:56:20 INFO  EmployeesRestAPI:92 - Response Content-Type Length==>39
+2021-07-27 16:56:20 INFO  EmployeesRestAPI:67 - *************** Check Response Status Code ***********
+2021-07-27 16:56:20 INFO  EmployeesRestAPI:70 - Response Status Code==>200
+2021-07-27 16:56:20 INFO  EmployeesRestAPI:103 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 16:56:25 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:56:25 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:56:25 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:72 - *************** Check Response Body ******************
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:75 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:94 - *************** Check Content-Type Header ************
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:97 - Response Content-Type Header==>application/json
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:105 - *************** Check Content-Length Header **********
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:108 - Response Content-Type Length==>39
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:82 - *************** Check Response Status Code ***********
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:85 - Response Status Code==>200
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:118 - **** Finish TC_003_DDT *******
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:32 - Response Body==>{"id":15,"name":"pes","releaseDate":"2021-07-26","reviewScore":8,"category":"Sport","rating":"universal"}
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>105
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:41 - Response Status Code==>200
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:75 - *************** Check Content-Type Header ************
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:78 - Response Content-Type Header==>application/json
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:51 - *************** Check Response Body ******************
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:54 - Response Body==>{"id":15,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"}
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:85 - *************** Check Content-Length Header **********
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:88 - Response Content-Type Length==>105
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:65 - *************** Check Response Status Code ***********
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:68 - Response Status Code==>200
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:97 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:17 - ***************** Started TC_004_Delete_a_Video_Game *******************
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:32 - Response Body==>{"status": "Record Deleted Successfully"}
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:50 - *************** Check Content-Type Header ************
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:53 - Response Content-Type Header==>application/json
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:61 - *************** Check Content-Length Header **********
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:64 - Response Content-Type Length==>41
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:40 - *************** Check Response Status Code ***********
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:43 - Response Status Code==>200
+2021-07-27 16:56:26 INFO  EmployeesRestAPI:74 - **** Finish TC_004_Delete_a_Video_Game *******
+2021-07-27 16:59:56 INFO  EmployeesRestAPI:18 - **** Started TC_001_GET_List_Of_All_Video_Games ******
+2021-07-27 17:00:02 INFO  EmployeesRestAPI:49 - *************** Check Content-Type Header ************
+2021-07-27 17:00:02 INFO  EmployeesRestAPI:52 - Response Content-Type Header==>application/json
+2021-07-27 17:00:02 INFO  EmployeesRestAPI:30 - *************** Check Response Body ******************
+2021-07-27 17:00:02 INFO  EmployeesRestAPI:33 - Response Body==>[{"id":0,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"},{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23","reviewScore":90,"category":"Driving","rating":"Mature"}]
+2021-07-27 17:00:02 INFO  EmployeesRestAPI:59 - *************** Check Content-Length Header **********
+2021-07-27 17:00:02 INFO  EmployeesRestAPI:62 - Response Content-Type Length==>1288
+2021-07-27 17:00:02 INFO  EmployeesRestAPI:39 - *************** Check Response Status Code ***********
+2021-07-27 17:00:02 INFO  EmployeesRestAPI:42 - Response Status Code==>200
+2021-07-27 17:00:02 INFO  EmployeesRestAPI:71 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 17:00:02 INFO  EmployeesRestAPI:29 - **** Started TC_002_Add_a_New_Video_Game ******
+2021-07-27 17:00:03 INFO  EmployeesRestAPI:78 - *************** Check Content-Type Header ************
+2021-07-27 17:00:03 INFO  EmployeesRestAPI:81 - Response Content-Type Header==>application/json
+2021-07-27 17:00:03 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 17:00:03 INFO  EmployeesRestAPI:59 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 17:00:03 INFO  EmployeesRestAPI:89 - *************** Check Content-Length Header **********
+2021-07-27 17:00:03 INFO  EmployeesRestAPI:92 - Response Content-Type Length==>39
+2021-07-27 17:00:03 INFO  EmployeesRestAPI:67 - *************** Check Response Status Code ***********
+2021-07-27 17:00:03 INFO  EmployeesRestAPI:70 - Response Status Code==>200
+2021-07-27 17:00:03 INFO  EmployeesRestAPI:103 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:72 - *************** Check Response Body ******************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:75 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:94 - *************** Check Content-Type Header ************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:97 - Response Content-Type Header==>application/json
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:105 - *************** Check Content-Length Header **********
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:108 - Response Content-Type Length==>39
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:82 - *************** Check Response Status Code ***********
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:85 - Response Status Code==>200
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:118 - **** Finish TC_003_DDT *******
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:32 - Response Body==>{"id":15,"name":"pes","releaseDate":"2021-07-26","reviewScore":8,"category":"Sport","rating":"universal"}
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>105
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:41 - Response Status Code==>200
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:75 - *************** Check Content-Type Header ************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:78 - Response Content-Type Header==>application/json
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:51 - *************** Check Response Body ******************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:54 - Response Body==>{"id":15,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"}
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:85 - *************** Check Content-Length Header **********
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:88 - Response Content-Type Length==>105
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:65 - *************** Check Response Status Code ***********
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:68 - Response Status Code==>200
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:97 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:17 - ***************** Started TC_004_Delete_a_Video_Game *******************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:32 - Response Body==>{"status": "Record Deleted Successfully"}
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:50 - *************** Check Content-Type Header ************
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:53 - Response Content-Type Header==>application/json
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:61 - *************** Check Content-Length Header **********
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:64 - Response Content-Type Length==>41
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:40 - *************** Check Response Status Code ***********
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:43 - Response Status Code==>200
+2021-07-27 17:00:08 INFO  EmployeesRestAPI:74 - **** Finish TC_004_Delete_a_Video_Game *******
+2021-07-27 17:00:55 INFO  EmployeesRestAPI:18 - **** Started TC_001_GET_List_Of_All_Video_Games ******
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:49 - *************** Check Content-Type Header ************
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:52 - Response Content-Type Header==>application/json
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:30 - *************** Check Response Body ******************
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:33 - Response Body==>[{"id":0,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"},{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23","reviewScore":90,"category":"Driving","rating":"Mature"},{"id":11,"name":"fifa 21","releaseDate":"2021-07-26","reviewScore":5,"category":"Sport","rating":"universal"},{"id":14,"name":"cod","releaseDate":"2021-07-26","reviewScore":9,"category":"shooter","rating":"mature"},{"id":20,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"}]
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:59 - *************** Check Content-Length Header **********
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:62 - Response Content-Type Length==>1609
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:39 - *************** Check Response Status Code ***********
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:42 - Response Status Code==>200
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:71 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:29 - **** Started TC_002_Add_a_New_Video_Game ******
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:78 - *************** Check Content-Type Header ************
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:81 - Response Content-Type Header==>application/json;charset=UTF-8
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:59 - Response Body==>{"timestamp":1627398063633,"status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [insert into VIDEOGAME values(?, ?, ?, ?, ?, ?)]; Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [20, 'Sonic', TIMESTAMP '2021-07-25 02:00:00', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [20, 'Sonic', TIMESTAMP '2021-07-25 02:00:00', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]","trace":"org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [insert into VIDEOGAME values(?, ?, ?, ?, ?, ?)]; Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [20, 'Sonic', TIMESTAMP '2021-07-25 02:00:00', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]; nested exception is org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [20, 'Sonic', TIMESTAMP '2021-07-25 02:00:00', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]\r\n\tat org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)\r\n\tat org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:883)\r\n\tat org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update(NamedParameterJdbcTemplate.java:321)\r\n\tat com.techietester.resource.VideoGameResource.createVideoGame(VideoGameResource.java:60)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\r\n\tat org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:76)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:148)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:191)\r\n\tat org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:243)\r\n\tat org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:103)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:493)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:415)\r\n\tat org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:104)\r\n\tat org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:277)\r\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:272)\r\n\tat org.glassfish.jersey.internal.Errors$1.call(Errors.java:268)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:316)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:298)\r\n\tat org.glassfish.jersey.internal.Errors.process(Errors.java:268)\r\n\tat org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:289)\r\n\tat org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:256)\r\n\tat org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:703)\r\n\tat org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:416)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.serviceImpl(ServletContainer.java:409)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:584)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:525)\r\n\tat org.glassfish.jersey.servlet.ServletContainer.doFilter(ServletContainer.java:462)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:832)\r\nCaused by: org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: \"PRIMARY KEY ON PUBLIC.VIDEOGAME(ID) [20, 'Sonic', TIMESTAMP '2021-07-25 02:00:00', 9, 'RPG', 'universal']\"; SQL statement:\ninsert into VIDEOGAME values(?, ?, ?, ?, ?, ?) [23505-199]\r\n\tat org.h2.message.DbException.getJdbcSQLException(DbException.java:457)\r\n\tat org.h2.message.DbException.getJdbcSQLException(DbException.java:427)\r\n\tat org.h2.message.DbException.get(DbException.java:205)\r\n\tat org.h2.message.DbException.get(DbException.java:181)\r\n\tat org.h2.mvstore.db.MVPrimaryIndex.add(MVPrimaryIndex.java:131)\r\n\tat org.h2.mvstore.db.MVTable.addRow(MVTable.java:546)\r\n\tat org.h2.command.dml.Insert.insertRows(Insert.java:180)\r\n\tat org.h2.command.dml.Insert.update(Insert.java:132)\r\n\tat org.h2.command.CommandContainer.update(CommandContainer.java:133)\r\n\tat org.h2.command.Command.executeUpdate(Command.java:267)\r\n\tat org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:200)\r\n\tat org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:154)\r\n\tat com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)\r\n\tat com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:867)\r\n\tat org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)\r\n\t... 55 more\r\n","path":"/app/videogames"}
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:89 - *************** Check Content-Length Header **********
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:92 - Response Content-Type Length==>null
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:67 - *************** Check Response Status Code ***********
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:70 - Response Status Code==>500
+2021-07-27 17:01:03 INFO  EmployeesRestAPI:103 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:72 - *************** Check Response Body ******************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:75 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:94 - *************** Check Content-Type Header ************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:97 - Response Content-Type Header==>application/json
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:105 - *************** Check Content-Length Header **********
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:108 - Response Content-Type Length==>39
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:82 - *************** Check Response Status Code ***********
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:85 - Response Status Code==>200
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:118 - **** Finish TC_003_DDT *******
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:32 - Response Body==>{"id":15,"name":"pes","releaseDate":"2021-07-26","reviewScore":8,"category":"Sport","rating":"universal"}
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>105
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:41 - Response Status Code==>200
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:75 - *************** Check Content-Type Header ************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:78 - Response Content-Type Header==>application/json
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:51 - *************** Check Response Body ******************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:54 - Response Body==>{"id":15,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"}
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:85 - *************** Check Content-Length Header **********
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:88 - Response Content-Type Length==>105
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:65 - *************** Check Response Status Code ***********
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:68 - Response Status Code==>200
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:97 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:17 - ***************** Started TC_004_Delete_a_Video_Game *******************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:32 - Response Body==>{"status": "Record Deleted Successfully"}
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:50 - *************** Check Content-Type Header ************
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:53 - Response Content-Type Header==>application/json
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:61 - *************** Check Content-Length Header **********
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:64 - Response Content-Type Length==>41
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:40 - *************** Check Response Status Code ***********
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:43 - Response Status Code==>200
+2021-07-27 17:01:11 INFO  EmployeesRestAPI:74 - **** Finish TC_004_Delete_a_Video_Game *******
+2021-07-27 17:02:24 INFO  EmployeesRestAPI:18 - **** Started TC_001_GET_List_Of_All_Video_Games ******
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:49 - *************** Check Content-Type Header ************
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:52 - Response Content-Type Header==>application/json
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:30 - *************** Check Response Body ******************
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:33 - Response Body==>[{"id":0,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"},{"id":1,"name":"Resident Evil 4","releaseDate":"2005-10-01","reviewScore":85,"category":"Shooter","rating":"Universal"},{"id":2,"name":"Gran Turismo 3","releaseDate":"2001-03-10","reviewScore":91,"category":"Driving","rating":"Universal"},{"id":3,"name":"Tetris","releaseDate":"1984-06-25","reviewScore":88,"category":"Puzzle","rating":"Universal"},{"id":4,"name":"Super Mario 64","releaseDate":"1996-10-20","reviewScore":90,"category":"Platform","rating":"Universal"},{"id":5,"name":"The Legend of Zelda: Ocarina of Time","releaseDate":"1998-12-10","reviewScore":93,"category":"Adventure","rating":"PG-13"},{"id":6,"name":"Doom","releaseDate":"1993-02-18","reviewScore":81,"category":"Shooter","rating":"Mature"},{"id":7,"name":"Minecraft","releaseDate":"2011-12-05","reviewScore":77,"category":"Puzzle","rating":"Universal"},{"id":8,"name":"SimCity 2000","releaseDate":"1994-09-11","reviewScore":88,"category":"Strategy","rating":"Universal"},{"id":9,"name":"Final Fantasy VII","releaseDate":"1997-08-20","reviewScore":97,"category":"RPG","rating":"PG-13"},{"id":10,"name":"Grand Theft Auto III","releaseDate":"2001-04-23","reviewScore":90,"category":"Driving","rating":"Mature"}]
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:59 - *************** Check Content-Length Header **********
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:62 - Response Content-Type Length==>1288
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:39 - *************** Check Response Status Code ***********
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:42 - Response Status Code==>200
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:71 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:29 - **** Started TC_002_Add_a_New_Video_Game ******
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:78 - *************** Check Content-Type Header ************
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:81 - Response Content-Type Header==>application/json
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:56 - *************** Check Response Body ******************
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:59 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:89 - *************** Check Content-Length Header **********
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:92 - Response Content-Type Length==>39
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:67 - *************** Check Response Status Code ***********
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:70 - Response Status Code==>200
+2021-07-27 17:02:30 INFO  EmployeesRestAPI:103 - **** Finish TC_001_GET_List_Of_All_Video_Games *******
+2021-07-27 17:02:34 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:47 - ***************** Started TC_003_DDT *******************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:72 - *************** Check Response Body ******************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:75 - Response Body==>{"status": "Record Added Successfully"}
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:94 - *************** Check Content-Type Header ************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:97 - Response Content-Type Header==>application/json
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:105 - *************** Check Content-Length Header **********
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:108 - Response Content-Type Length==>39
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:82 - *************** Check Response Status Code ***********
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:85 - Response Status Code==>200
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:118 - **** Finish TC_003_DDT *******
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:16 - **** Started TC_005_GET_Single_Video_Game ******
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:48 - *************** Check Content-Type Header ************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:51 - Response Content-Type Header==>application/json
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:32 - Response Body==>{"id":15,"name":"pes","releaseDate":"2021-07-26","reviewScore":8,"category":"Sport","rating":"universal"}
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:58 - *************** Check Content-Length Header **********
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:61 - Response Content-Type Length==>105
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:38 - *************** Check Response Status Code ***********
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:41 - Response Status Code==>200
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:70 - **** Finish TC_005_GET_Single_Video_Game *******
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:27 - **** Started TC_006_Update_a_Video_Game ******
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:75 - *************** Check Content-Type Header ************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:78 - Response Content-Type Header==>application/json
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:51 - *************** Check Response Body ******************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:54 - Response Body==>{"id":15,"name":"Sonic","releaseDate":"2021-07-25","reviewScore":9,"category":"RPG","rating":"universal"}
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:85 - *************** Check Content-Length Header **********
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:88 - Response Content-Type Length==>105
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:65 - *************** Check Response Status Code ***********
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:68 - Response Status Code==>200
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:97 - **** Finish TC_006_Update_a_Video_Game *******
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:17 - ***************** Started TC_004_Delete_a_Video_Game *******************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:29 - *************** Check Response Body ******************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:32 - Response Body==>{"status": "Record Deleted Successfully"}
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:50 - *************** Check Content-Type Header ************
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:53 - Response Content-Type Header==>application/json
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:61 - *************** Check Content-Length Header **********
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:64 - Response Content-Type Length==>41
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:40 - *************** Check Response Status Code ***********
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:43 - Response Status Code==>200
+2021-07-27 17:02:35 INFO  EmployeesRestAPI:74 - **** Finish TC_004_Delete_a_Video_Game *******

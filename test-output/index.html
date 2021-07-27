@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Video_Games_API" class="navigator-link">
+              <span class="suite-name border-passed">Video Games API</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Video_Games_API" class="navigator-link ">
+                    <span>D:\WorkSpace\Rest_Assured_Full_Project\Rest_Assured_Video_GameAPI\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Video_Games_API" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Video_Games_API" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Video_Games_API" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Video_Games_API" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Video_Games_API" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Video_Games_API" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Video_Games_API" class="hide-methods passed suite-Video_Games_API"> (hide)</a> <!-- hide-methods passed suite-Video_Games_API -->
+                      <a href="#" panel-name="suite-Video_Games_API" class="show-methods passed suite-Video_Games_API"> (show)</a> <!-- show-methods passed suite-Video_Games_API -->
+                    </span>
+                    <div class="method-list-content passed suite-Video_Games_API">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_005_GET_Single_Video_Game" class="method navigator-link" hash-for-method="validateContentType">validateContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_001_GET_List_Of_All_Video_Games" class="method navigator-link" hash-for-method="validateContentType">validateContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_002_Add_a_New_Video_Game" class="method navigator-link" hash-for-method="validateContentType">validateContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_006_Update_a_Video_Game" class="method navigator-link" hash-for-method="validateContentType">validateContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_003_DDT" class="method navigator-link" hash-for-method="validateDataDrivenTest(13, fortnite, 2021-07-26T03:03:08.750Z, 2.5, shooter, mature)">validateDataDrivenTest(13, fortnite, 2021-07-26T03:03:08.750Z, 2.5, shooter, mature)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_003_DDT" class="method navigator-link" hash-for-method="validateDataDrivenTest(12, pubg, 2021-07-26T03:03:08.749Z, 7.5, shooter, mature)">validateDataDrivenTest(12, pubg, 2021-07-26T03:03:08.749Z, 7.5, shooter, mature)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_003_DDT" class="method navigator-link" hash-for-method="validateDataDrivenTest(14, cod, 2021-07-26T03:03:08.751Z, 9, shooter, mature)">validateDataDrivenTest(14, cod, 2021-07-26T03:03:08.751Z, 9, shooter, mature)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_003_DDT" class="method navigator-link" hash-for-method="validateDataDrivenTest(11, fifa 21, 2021-07-26T03:03:08.748Z, 5, Sport, universal)">validateDataDrivenTest(11, fifa 21, 2021-07-26T03:03:08.748Z, 5, Sport, universal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_003_DDT" class="method navigator-link" hash-for-method="validateDataDrivenTest(15, pes, 2021-07-26T03:03:08.752Z, 8, Sport, universal)">validateDataDrivenTest(15, pes, 2021-07-26T03:03:08.752Z, 8, Sport, universal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_002_Add_a_New_Video_Game" class="method navigator-link" hash-for-method="validateResponseBody">validateResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_004_Delete_a_Video_Game" class="method navigator-link" hash-for-method="validateResponseBody">validateResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_001_GET_List_Of_All_Video_Games" class="method navigator-link" hash-for-method="validateResponseBody">validateResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_005_GET_Single_Video_Game" class="method navigator-link" hash-for-method="validateResponseBody">validateResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_006_Update_a_Video_Game" class="method navigator-link" hash-for-method="validateResponseBody">validateResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_003_DDT" class="method navigator-link" hash-for-method="validateResponseBody">validateResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_004_Delete_a_Video_Game" class="method navigator-link" hash-for-method="validateResponseContentHeader">validateResponseContentHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_003_DDT" class="method navigator-link" hash-for-method="validateResponseContentHeader">validateResponseContentHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_005_GET_Single_Video_Game" class="method navigator-link" hash-for-method="validateResponseLength">validateResponseLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_004_Delete_a_Video_Game" class="method navigator-link" hash-for-method="validateResponseLength">validateResponseLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_003_DDT" class="method navigator-link" hash-for-method="validateResponseLength">validateResponseLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_001_GET_List_Of_All_Video_Games" class="method navigator-link" hash-for-method="validateResponseLength">validateResponseLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_006_Update_a_Video_Game" class="method navigator-link" hash-for-method="validateResponseLength">validateResponseLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_002_Add_a_New_Video_Game" class="method navigator-link" hash-for-method="validateResponseLength">validateResponseLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_001_GET_List_Of_All_Video_Games" class="method navigator-link" hash-for-method="validateResponseStatus">validateResponseStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_002_Add_a_New_Video_Game" class="method navigator-link" hash-for-method="validateResponseStatus">validateResponseStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_006_Update_a_Video_Game" class="method navigator-link" hash-for-method="validateResponseStatus">validateResponseStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_004_Delete_a_Video_Game" class="method navigator-link" hash-for-method="validateResponseStatus">validateResponseStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_005_GET_Single_Video_Game" class="method navigator-link" hash-for-method="validateResponseStatus">validateResponseStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Video_Games_API" title="org.example.api.testCases.TC_003_DDT" class="method navigator-link" hash-for-method="validateResponseStatus">validateResponseStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Video_Games_API -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Video_Games_API" class="panel Video_Games_API">
+          <div class="suite-Video_Games_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.api.testCases.TC_004_Delete_a_Video_Game</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseBody">
+                  </a> <!-- validateResponseBody -->
+                  <span class="method-name">validateResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseContentHeader">
+                  </a> <!-- validateResponseContentHeader -->
+                  <span class="method-name">validateResponseContentHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseLength">
+                  </a> <!-- validateResponseLength -->
+                  <span class="method-name">validateResponseLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseStatus">
+                  </a> <!-- validateResponseStatus -->
+                  <span class="method-name">validateResponseStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Video_Games_API-class-passed -->
+          <div class="suite-Video_Games_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.api.testCases.TC_001_GET_List_Of_All_Video_Games</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateContentType">
+                  </a> <!-- validateContentType -->
+                  <span class="method-name">validateContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseBody">
+                  </a> <!-- validateResponseBody -->
+                  <span class="method-name">validateResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseLength">
+                  </a> <!-- validateResponseLength -->
+                  <span class="method-name">validateResponseLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseStatus">
+                  </a> <!-- validateResponseStatus -->
+                  <span class="method-name">validateResponseStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Video_Games_API-class-passed -->
+          <div class="suite-Video_Games_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.api.testCases.TC_006_Update_a_Video_Game</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateContentType">
+                  </a> <!-- validateContentType -->
+                  <span class="method-name">validateContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseBody">
+                  </a> <!-- validateResponseBody -->
+                  <span class="method-name">validateResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseLength">
+                  </a> <!-- validateResponseLength -->
+                  <span class="method-name">validateResponseLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseStatus">
+                  </a> <!-- validateResponseStatus -->
+                  <span class="method-name">validateResponseStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Video_Games_API-class-passed -->
+          <div class="suite-Video_Games_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.api.testCases.TC_003_DDT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDataDrivenTest(13, fortnite, 2021-07-26T03:03:08.750Z, 2.5, shooter, mature)">
+                  </a> <!-- validateDataDrivenTest(13, fortnite, 2021-07-26T03:03:08.750Z, 2.5, shooter, mature) -->
+                  <span class="method-name">validateDataDrivenTest</span>
+                  <span class="parameters">(13, fortnite, 2021-07-26T03:03:08.750Z, 2.5, shooter, mature)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDataDrivenTest(12, pubg, 2021-07-26T03:03:08.749Z, 7.5, shooter, mature)">
+                  </a> <!-- validateDataDrivenTest(12, pubg, 2021-07-26T03:03:08.749Z, 7.5, shooter, mature) -->
+                  <span class="method-name">validateDataDrivenTest</span>
+                  <span class="parameters">(12, pubg, 2021-07-26T03:03:08.749Z, 7.5, shooter, mature)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDataDrivenTest(14, cod, 2021-07-26T03:03:08.751Z, 9, shooter, mature)">
+                  </a> <!-- validateDataDrivenTest(14, cod, 2021-07-26T03:03:08.751Z, 9, shooter, mature) -->
+                  <span class="method-name">validateDataDrivenTest</span>
+                  <span class="parameters">(14, cod, 2021-07-26T03:03:08.751Z, 9, shooter, mature)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDataDrivenTest(11, fifa 21, 2021-07-26T03:03:08.748Z, 5, Sport, universal)">
+                  </a> <!-- validateDataDrivenTest(11, fifa 21, 2021-07-26T03:03:08.748Z, 5, Sport, universal) -->
+                  <span class="method-name">validateDataDrivenTest</span>
+                  <span class="parameters">(11, fifa 21, 2021-07-26T03:03:08.748Z, 5, Sport, universal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDataDrivenTest(15, pes, 2021-07-26T03:03:08.752Z, 8, Sport, universal)">
+                  </a> <!-- validateDataDrivenTest(15, pes, 2021-07-26T03:03:08.752Z, 8, Sport, universal) -->
+                  <span class="method-name">validateDataDrivenTest</span>
+                  <span class="parameters">(15, pes, 2021-07-26T03:03:08.752Z, 8, Sport, universal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseBody">
+                  </a> <!-- validateResponseBody -->
+                  <span class="method-name">validateResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseContentHeader">
+                  </a> <!-- validateResponseContentHeader -->
+                  <span class="method-name">validateResponseContentHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseLength">
+                  </a> <!-- validateResponseLength -->
+                  <span class="method-name">validateResponseLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseStatus">
+                  </a> <!-- validateResponseStatus -->
+                  <span class="method-name">validateResponseStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Video_Games_API-class-passed -->
+          <div class="suite-Video_Games_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.api.testCases.TC_002_Add_a_New_Video_Game</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateContentType">
+                  </a> <!-- validateContentType -->
+                  <span class="method-name">validateContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseBody">
+                  </a> <!-- validateResponseBody -->
+                  <span class="method-name">validateResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseLength">
+                  </a> <!-- validateResponseLength -->
+                  <span class="method-name">validateResponseLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseStatus">
+                  </a> <!-- validateResponseStatus -->
+                  <span class="method-name">validateResponseStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Video_Games_API-class-passed -->
+          <div class="suite-Video_Games_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.api.testCases.TC_005_GET_Single_Video_Game</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateContentType">
+                  </a> <!-- validateContentType -->
+                  <span class="method-name">validateContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseBody">
+                  </a> <!-- validateResponseBody -->
+                  <span class="method-name">validateResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseLength">
+                  </a> <!-- validateResponseLength -->
+                  <span class="method-name">validateResponseLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateResponseStatus">
+                  </a> <!-- validateResponseStatus -->
+                  <span class="method-name">validateResponseStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Video_Games_API-class-passed -->
+        </div> <!-- panel Video_Games_API -->
+        <div panel-name="test-xml-Video_Games_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\WorkSpace\Rest_Assured_Full_Project\Rest_Assured_Video_GameAPI\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Video Games API&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Rest-Assured API testing&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.example.api.testCases.TC_001_GET_List_Of_All_Video_Games&quot;/&gt;
+      &lt;class name=&quot;org.example.api.testCases.TC_002_Add_a_New_Video_Game&quot;/&gt;
+      &lt;class name=&quot;org.example.api.testCases.TC_003_DDT&quot;/&gt;
+      &lt;class name=&quot;org.example.api.testCases.TC_005_GET_Single_Video_Game&quot;/&gt;
+      &lt;class name=&quot;org.example.api.testCases.TC_006_Update_a_Video_Game&quot;/&gt;
+      &lt;class name=&quot;org.example.api.testCases.TC_004_Delete_a_Video_Game&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Rest-Assured API testing --&gt;
+&lt;/suite&gt; &lt;!-- Video Games API --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Video_Games_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Video Games API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Rest-Assured API testing (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Video_Games_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Video Games API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Video_Games_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Video Games API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Video_Games_API');
+function tableData_Video_Games_API() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateDataDrivenTest')
+data.setCell(0, 2, 'org.example.api.testCases.TC_003_DDT')
+data.setCell(0, 3, 88);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateDataDrivenTest')
+data.setCell(1, 2, 'org.example.api.testCases.TC_003_DDT')
+data.setCell(1, 3, 73);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateDataDrivenTest')
+data.setCell(2, 2, 'org.example.api.testCases.TC_003_DDT')
+data.setCell(2, 3, 69);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateDataDrivenTest')
+data.setCell(3, 2, 'org.example.api.testCases.TC_003_DDT')
+data.setCell(3, 3, 59);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateDataDrivenTest')
+data.setCell(4, 2, 'org.example.api.testCases.TC_003_DDT')
+data.setCell(4, 3, 56);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateResponseBody')
+data.setCell(5, 2, 'org.example.api.testCases.TC_001_GET_List_Of_All_Video_Games')
+data.setCell(5, 3, 43);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateContentType')
+data.setCell(6, 2, 'org.example.api.testCases.TC_002_Add_a_New_Video_Game')
+data.setCell(6, 3, 7);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateContentType')
+data.setCell(7, 2, 'org.example.api.testCases.TC_001_GET_List_Of_All_Video_Games')
+data.setCell(7, 3, 6);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateResponseLength')
+data.setCell(8, 2, 'org.example.api.testCases.TC_002_Add_a_New_Video_Game')
+data.setCell(8, 3, 5);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateResponseLength')
+data.setCell(9, 2, 'org.example.api.testCases.TC_001_GET_List_Of_All_Video_Games')
+data.setCell(9, 3, 4);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateResponseBody')
+data.setCell(10, 2, 'org.example.api.testCases.TC_002_Add_a_New_Video_Game')
+data.setCell(10, 3, 3);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateResponseStatus')
+data.setCell(11, 2, 'org.example.api.testCases.TC_001_GET_List_Of_All_Video_Games')
+data.setCell(11, 3, 3);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateResponseStatus')
+data.setCell(12, 2, 'org.example.api.testCases.TC_002_Add_a_New_Video_Game')
+data.setCell(12, 3, 3);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateResponseBody')
+data.setCell(13, 2, 'org.example.api.testCases.TC_004_Delete_a_Video_Game')
+data.setCell(13, 3, 3);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateResponseStatus')
+data.setCell(14, 2, 'org.example.api.testCases.TC_006_Update_a_Video_Game')
+data.setCell(14, 3, 3);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateResponseContentHeader')
+data.setCell(15, 2, 'org.example.api.testCases.TC_003_DDT')
+data.setCell(15, 3, 3);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateResponseLength')
+data.setCell(16, 2, 'org.example.api.testCases.TC_003_DDT')
+data.setCell(16, 3, 3);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateResponseStatus')
+data.setCell(17, 2, 'org.example.api.testCases.TC_004_Delete_a_Video_Game')
+data.setCell(17, 3, 3);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateResponseStatus')
+data.setCell(18, 2, 'org.example.api.testCases.TC_003_DDT')
+data.setCell(18, 3, 3);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateResponseContentHeader')
+data.setCell(19, 2, 'org.example.api.testCases.TC_004_Delete_a_Video_Game')
+data.setCell(19, 3, 2);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateContentType')
+data.setCell(20, 2, 'org.example.api.testCases.TC_005_GET_Single_Video_Game')
+data.setCell(20, 3, 2);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validateResponseBody')
+data.setCell(21, 2, 'org.example.api.testCases.TC_005_GET_Single_Video_Game')
+data.setCell(21, 3, 2);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateResponseLength')
+data.setCell(22, 2, 'org.example.api.testCases.TC_004_Delete_a_Video_Game')
+data.setCell(22, 3, 2);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validateResponseBody')
+data.setCell(23, 2, 'org.example.api.testCases.TC_006_Update_a_Video_Game')
+data.setCell(23, 3, 2);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'validateResponseBody')
+data.setCell(24, 2, 'org.example.api.testCases.TC_003_DDT')
+data.setCell(24, 3, 2);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'validateResponseLength')
+data.setCell(25, 2, 'org.example.api.testCases.TC_006_Update_a_Video_Game')
+data.setCell(25, 3, 2);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'validateResponseStatus')
+data.setCell(26, 2, 'org.example.api.testCases.TC_005_GET_Single_Video_Game')
+data.setCell(26, 3, 2);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'validateResponseLength')
+data.setCell(27, 2, 'org.example.api.testCases.TC_005_GET_Single_Video_Game')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'validateContentType')
+data.setCell(28, 2, 'org.example.api.testCases.TC_006_Update_a_Video_Game')
+data.setCell(28, 3, 1);
+window.suiteTableData['Video_Games_API']= { tableData: data, tableDiv: 'times-div-Video_Games_API'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 455 ms</span>
+              <div id="times-div-Video_Games_API">
+              </div> <!-- times-div-Video_Games_API -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Video_Games_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Video Games API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Video_Games_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Video_Games_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.api.testCases.TC_001_GET_List_Of_All_Video_Games</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">getAllGames</span>
+                <span class="method-start">397 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateContentType</span>
+                <span class="method-start">7012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseBody</span>
+                <span class="method-start">7022 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseLength</span>
+                <span class="method-start">7066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseStatus</span>
+                <span class="method-start">7072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7078 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.api.testCases.TC_002_Add_a_New_Video_Game</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7101 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">addNewGame</span>
+                <span class="method-start">7109 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateContentType</span>
+                <span class="method-start">7619 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseBody</span>
+                <span class="method-start">7626 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseLength</span>
+                <span class="method-start">7629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseStatus</span>
+                <span class="method-start">7634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7638 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.api.testCases.TC_003_DDT</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7641 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateDataDrivenTest(11, fifa 21, 2021-07-26T03:03:08.748Z, 5, Sport, universal)</span>
+                <span class="method-start">12974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateDataDrivenTest(12, pubg, 2021-07-26T03:03:08.749Z, 7.5, shooter, mature)</span>
+                <span class="method-start">13063 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateDataDrivenTest(13, fortnite, 2021-07-26T03:03:08.750Z, 2.5, shooter, mature)</span>
+                <span class="method-start">13140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateDataDrivenTest(14, cod, 2021-07-26T03:03:08.751Z, 9, shooter, mature)</span>
+                <span class="method-start">13200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateDataDrivenTest(15, pes, 2021-07-26T03:03:08.752Z, 8, Sport, universal)</span>
+                <span class="method-start">13257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseBody</span>
+                <span class="method-start">13329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseContentHeader</span>
+                <span class="method-start">13332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseLength</span>
+                <span class="method-start">13339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseStatus</span>
+                <span class="method-start">13344 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13348 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.api.testCases.TC_005_GET_Single_Video_Game</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13350 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">getSingleGame</span>
+                <span class="method-start">13358 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateContentType</span>
+                <span class="method-start">13407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseBody</span>
+                <span class="method-start">13409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseLength</span>
+                <span class="method-start">13412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseStatus</span>
+                <span class="method-start">13414 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13416 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.api.testCases.TC_006_Update_a_Video_Game</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13418 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">updateVideo</span>
+                <span class="method-start">13425 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateContentType</span>
+                <span class="method-start">13490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseBody</span>
+                <span class="method-start">13492 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseLength</span>
+                <span class="method-start">13495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseStatus</span>
+                <span class="method-start">13498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13502 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.api.testCases.TC_004_Delete_a_Video_Game</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13507 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">deleteVideoGame</span>
+                <span class="method-start">13511 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validateResponseBody</span>
+                <span class="method-start">13563 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseContentHeader</span>
+                <span class="method-start">13566 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseLength</span>
+                <span class="method-start">13568 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateResponseStatus</span>
+                <span class="method-start">13571 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13574 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

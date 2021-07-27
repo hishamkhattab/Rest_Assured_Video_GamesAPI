@@ -76,6 +76,7 @@ public class TC_003_DDT extends TestBase {
 
         assertTrue(body.contains("Record Added Successfully"));
     }
+
     @Test (dependsOnMethods = {"validateDataDrivenTest"})
     public void validateResponseStatus() {
         logger.info("*************** Check Response Status Code ***********");
@@ -114,6 +115,6 @@ public class TC_003_DDT extends TestBase {
 
     @AfterClass
     public void tearDown(){
-        logger.info("**** Finish TC_001_GET_List_Of_All_Video_Games *******");
+        logger.info("**** Finish TC_003_DDT *******");
     }
 }

@@ -2,6 +2,7 @@ package org.example.api.testCases;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
+import io.restassured.path.json.JsonPath;
 import org.example.api.base.TestBase;
 import org.example.api.utilities.DataProvide;
 import org.json.simple.JSONObject;
@@ -11,12 +12,10 @@ import org.testng.annotations.Test;
 
 import java.util.HashMap;
 
-import static org.junit.Assert.*;
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.*;
 
-public class TC_002_Add_a_New_Video_Game extends TestBase {
+public class TC_006_Update_a_Video_Game extends TestBase {
 
-    String id = DataProvide.getID();
     String name = DataProvide.getName();
     String releaseDate = DataProvide.getDate();
     String category = DataProvide.getCategory();
@@ -24,13 +23,13 @@ public class TC_002_Add_a_New_Video_Game extends TestBase {
     String score = DataProvide.getScore();
 
     @BeforeClass
-    public void addNewGame() throws InterruptedException {
+    public void updateVideo(){
+        logger.info("**** Started TC_006_Update_a_Video_Game ******");
+        String id = ID;
 
-        logger.info("**** Started TC_002_Add_a_New_Video_Game ******");
+        RestAssured.baseURI = "http://localhost:8010/app/videogames";
 
-        RestAssured.baseURI = "http://localhost:8010/app";
         httpRequest = RestAssured.given();
-
         HashMap<String,String> data = new HashMap<>();
         data.put("id",id);
         data.put("name",name);
@@ -41,27 +40,26 @@ public class TC_002_Add_a_New_Video_Game extends TestBase {
 
         httpRequest.header("Content-Type","application/json");
         httpRequest.header("Accept","application/json");
+        JSONObject jsonObject = new JSONObject(data);
+        httpRequest.body(jsonObject);
 
-        JSONObject jsonData = new JSONObject(data);
-        httpRequest.body(jsonData);
-
-
-        response = httpRequest.request(Method.POST,"/videogames");
-        Thread.sleep(5);
+        response = httpRequest.request(Method.PUT,"/"+id);
     }
-
 
     @Test
     public void validateResponseBody(){
         logger.info("*************** Check Response Body ******************");
 
-         String body = response.getBody().asString();
-         logger.info("Response Body==>"+body);
+        String body = response.getBody().asString();
+        logger.info("Response Body==>"+body);
 
-         assertTrue(body.contains("Record Added Successfully"));
+        assertTrue(body.contains(name));
+        assertTrue(body.contains(releaseDate));
+        assertTrue(body.contains(rating));
+        assertTrue(body.contains(score));
+        assertTrue(body.contains(category));
+
     }
-
-
     @Test
     public void validateResponseStatus(){
         logger.info("*************** Check Response Status Code ***********");
@@ -71,7 +69,6 @@ public class TC_002_Add_a_New_Video_Game extends TestBase {
 
         assertEquals(200,statusCode);
     }
-
 
     @Test
     public void validateContentType(){
@@ -83,7 +80,6 @@ public class TC_002_Add_a_New_Video_Game extends TestBase {
         assertEquals("application/json",content);
     }
 
-
     @Test
     public void validateResponseLength(){
         logger.info("*************** Check Content-Length Header **********");
@@ -91,16 +87,14 @@ public class TC_002_Add_a_New_Video_Game extends TestBase {
         String length = response.getHeader("Content-length");
         logger.info("Response Content-Type Length==>"+length);
 
-        if (Integer.parseInt(length) < 30)
-            logger.warn("Response Body Length is less than 30");
-
-        assertTrue(Integer.parseInt(length)>20);
+        if (Integer.parseInt(length) < 100)
+            logger.warn("Response Body Length is less than 100");
+        assertTrue(Integer.parseInt(length)>100);
     }
-
 
     @AfterClass
     public void tearDown(){
-            logger.info("**** Finish TC_001_GET_List_Of_All_Video_Games *******");
-        }
-}
+        logger.info("**** Finish TC_006_Update_a_Video_Game *******");
+    }
 
+}

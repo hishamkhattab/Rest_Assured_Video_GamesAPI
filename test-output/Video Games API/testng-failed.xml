@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Video Games API]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Rest-Assured API testing(failed)">
+    <classes>
+      <class name="org.example.api.testCases.TC_006_Update_a_Video_Game">
+        <methods>
+          <include name="setup"/>
+          <include name="validateResponseBody"/>
+          <include name="tearDown"/>
+          <include name="updateVideo"/>
+        </methods>
+      </class> <!-- org.example.api.testCases.TC_006_Update_a_Video_Game -->
+    </classes>
+  </test> <!-- Rest-Assured API testing(failed) -->
+</suite> <!-- Failed suite [Video Games API] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Video Games API">
+    <test name="Rest-Assured API testing">
+        <classes>
+            <class name="org.example.api.testCases.TC_001_GET_List_Of_All_Video_Games"/>
+            <class name="org.example.api.testCases.TC_002_Add_a_New_Video_Game"/>
+            <class name="org.example.api.testCases.TC_003_DDT"/>
+            <class name="org.example.api.testCases.TC_005_GET_Single_Video_Game"/>
+            <class name="org.example.api.testCases.TC_006_Update_a_Video_Game"/>
+            <class name="org.example.api.testCases.TC_004_Delete_a_Video_Game"/>
+        </classes>
+    </test>
+</suite>
