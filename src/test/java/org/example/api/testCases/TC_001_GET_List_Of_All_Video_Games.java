@@ -3,23 +3,24 @@ package org.example.api.testCases;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import org.example.api.base.TestBase;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.testng.Assert.*;
 
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+
 public class TC_001_GET_List_Of_All_Video_Games extends TestBase {
 
-    @BeforeAll
+    @BeforeClass
     public void getAllGames() throws InterruptedException {
 
         logger.info("**** Started TC_001_GET_List_Of_All_Video_Games ******");
 
         RestAssured.baseURI = "http://localhost:8010/app";
         httpRequest = RestAssured.given();
+        httpRequest.header("Content-Type","application/json");
+        httpRequest.header("Accept","application/json");
         response = httpRequest.request(Method.GET,"/videogames");
         Thread.sleep(5);
     }
@@ -65,7 +66,7 @@ public class TC_001_GET_List_Of_All_Video_Games extends TestBase {
         assertTrue(Integer.parseInt(length)>1000);
     }
 
-    @AfterAll
+    @AfterClass
     public void tearDown(){
         logger.info("**** Finish TC_001_GET_List_Of_All_Video_Games *******");
     }

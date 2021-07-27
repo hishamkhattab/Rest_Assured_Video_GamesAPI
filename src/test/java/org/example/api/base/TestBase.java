@@ -5,10 +5,7 @@ import io.restassured.specification.RequestSpecification;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.TestInstance;
-
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+import org.testng.annotations.BeforeClass;
 
 public class TestBase {
 
@@ -17,7 +14,7 @@ public class TestBase {
     public static String ID = "14";
     public Logger logger;
 
-    @BeforeAll
+    @BeforeClass
     public void setup(){
         //Generate the logs
         logger = Logger.getLogger("EmployeesRestAPI");  //added Logger
