@@ -2,7 +2,6 @@ package org.example.api.testCases;
 
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
-import io.restassured.path.json.JsonPath;
 import org.example.api.base.TestBase;
 import org.example.api.utilities.DataProvide;
 import org.json.simple.JSONObject;
